@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Promoción de procesos formativos en seguridad vial',
+    descripcionCurso:
+      'A través de este componente formativo el aprendiz identificará la importancia de desarrollar competencias para ser un promotor de procesos educativos y formativos en seguridad vial, el cual tiene como base el aspecto normativo en materia de tránsito y transporte, acompañado de conceptos pedagógicos y didácticos necesarios para enseñar a cualquier tipo de público las temáticas de la seguridad vial.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
