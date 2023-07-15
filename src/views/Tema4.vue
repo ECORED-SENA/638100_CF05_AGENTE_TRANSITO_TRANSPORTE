@@ -15,7 +15,7 @@
       .col-lg-4.col-8: img(src='@/assets/curso/temas/tema4/1.png', alt='')
     .cajon.color-acento-contenido.p-4.mb-4
       p.mb-0 Acorde con lo anterior, se define modelo pedagógico como aquella fenomenología de la educación que basa su esfuerzo en la comprensión de los diferentes teóricos y padres de la invención educativa y de sus diferentes contrastes nacidos a través del tiempo. A continuación se explican de manera general algunos modelos pedagógicos, para que posteriormente elija el modelo a utilizar para el desarrollo de sus clases cuando sea el momento:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-lg-10
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--amarilla")
           .row(titulo="Modelo tradicional")
@@ -74,6 +74,11 @@
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema4/7.png', alt='')
+    .tarjeta.p-4(style="background-color: #FEF1AD")
+      .row.justify-content-center.align-items-center
+        .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
+        .col-lg-9 
+          p.mb-0 Finalmente, y para cerrar este tema se podría decir que si la aplicación de la norma en seguridad vial es un modelo pedagógico tradicional avalado por la ley para los comportamientos ciudadanos que se encajan como infracciones de tránsito será necesario que los docentes de seguridad vial realicen sus prácticas pedagógicas utilizando otros modelos, que logren ser interiorizados por los estudiantes, para lograr tener más y mejores hábitos y comportamientos seguros en las vías.
 
 </template>
 

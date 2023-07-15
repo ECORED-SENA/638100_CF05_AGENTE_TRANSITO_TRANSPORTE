@@ -27,3 +27,32 @@
   background-color: $color-acento-botones
   i
     color: white
+.titulo-icono
+  position: relative
+  background-color: #31313C
+  border-radius: 0px 10px 10px 0
+  display: inline-block
+  padding: .5rem
+  h4
+    color: white
+    margin-left: 1.5rem
+    margin-right: 2rem
+  &::before
+    content: url('../assets/curso/temas/cono.svg')
+    position: absolute
+    left: -15px
+    bottom: -5px
+.card-slyde
+  background-image: url('../assets/curso/temas/card-slyde.svg')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  background-image: url(../assets/curso/temas/flecha.svg)
+  opacity: 1
+.slyder-a__bullets__item--active
+  background-color: #D40A32 !important
+  border: 0
+.slyder-a__bullets__item
+  background-color: #DF98A6
