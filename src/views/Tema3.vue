@@ -51,10 +51,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.card--2
-  background-image: url(../assets/curso/temas/tema3/fondo.png)
-  background-position: start
-  background-size:  cover
-  background-repeat: no-repeat
-</style>
+<style lang="sass"></style>
