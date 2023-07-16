@@ -56,3 +56,36 @@
   border: 0
 .slyder-a__bullets__item
   background-color: #DF98A6
+.card-hover
+  background-color: #F1EBDD
+  transition: background-color .3s
+  transition-timing-function: easy-in
+  &:hover
+    background-color: #FAE5B4
+.linea-tiempo-d__item__content__slot, .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #F6EFD0
+.cajon-b.color-primario
+  &::before
+    height: 100%
+    opacity: .8
+.cajon-b.color-acento-contenido
+  &::before
+    height: 100%
+    background-color: #EBEBEB
+    opacity: 1
+    // width: 30%
+.tabla-editada
+  tr:first-child
+    border-top: 5px solid #F0B62A
+  tr:nth-child(odd)
+    background-color: #F6F6F6
+  tr:nth-child(even)
+    background-color: white
+.pasos-a.color-acento-contenido .pasos-a__circle
+  div.h2
+    color: $color-secundario !important
+.fondo-gradiente
+  background-image: url(../assets/curso/temas/tema7/fondo-gradiente.svg)
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
