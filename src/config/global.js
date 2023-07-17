@@ -8,11 +8,19 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/a4.svg'),
       },
     ],
   },
@@ -32,69 +40,64 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: '',
+        titulo: 'Normatividad en tránsito y transporte.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: '',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '',
+        titulo: 'Fundamentos pedagógicos en seguridad vial',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: '',
+        titulo:
+          'Conceptos de andragogía y formación preescolar en seguridad vial',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: '',
+        titulo: 'Modelos pedagógicos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: '',
+        titulo:
+          'Modelos pedagógicosFundamentos sobre competencias ciudadanas en tránsito y seguridad vial',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: '',
+        titulo: 'Características de la enseñanza aprendizaje',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: '',
+        titulo: 'Fundamentos en evaluación del aprendizaje',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema8',
         numero: '8',
-        titulo: '',
+        titulo: 'Educación vial y Factor Humano',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema9',
         numero: '9',
-        titulo: '',
+        titulo: 'Aspectos generales sobre infraestructura vial',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema10',
         numero: '10',
-        titulo: '',
+        titulo: 'Plan Nacional de Seguridad Vial 2022-2031',
         desarrolloContenidos: true,
       },
     ],
