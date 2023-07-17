@@ -70,6 +70,203 @@
       .col-lg-4
         .tarjeta.p-4(style="background-color: #F1EBDD")
           p.text-center.mb-0 Estas dos entidades tienen como cabeza principal el Ministerio de Transporte.
+    .tarjeta.p-5.mb-5(style="background-color: #31313C")
+      .row.justify-content-center.mb-3
+        .col-lg-10
+          p.fw-bold.text-white Según el Código Nacional de Tránsito, las vías en Colombia se dividen en dos categorías: las que se ubican dentro del perímetro urbano y las que se encuentran en zonas rurales, así:
+
+      .row.justify-content-center
+        .col-lg-3.mb-lg-0.mb-3
+          ul.lista-ul--color
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Vías férreas
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Autopistas
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Vías privadas
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Vías peatonales
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Vía troncal
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Arterias
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Principales
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Secundarias
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Colectoras
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Ordinarias
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Locales
+        .col-lg-3.mb-lg-0.mb-3
+          ul.lista-ul--color
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Metro vías
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Ciclorrutas
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Vías que están en zona rural
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Férreas
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Autopistas
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Carreteras Principales
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Carreteras secundarias
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Carreteables
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Privadas
+            li.d-flex.mb-1
+              i.fas.fa-check(style="color: #F88F05")
+              p.mb-0.text-white Peatonales
+        .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/5.svg', alt='')
+    p.mb-5(data-aos='fade-right') A su vez, las vías se pueden agrupar según algunas generalidades o características como su funcionalidad o el tipo de terreno. Por su funcionalidad en redes, están determinadas por su necesidad operacional; mientras que, por el tipo de terreno, se complejiza su diseño y construcción, siendo Colombia un país con relieves característicos por el sistema montañoso que la atraviesa de sur a norte, más terrenos planos de las llanuras y valles interandinos.
+      br
+      br
+      | #[b La siguiente es la agrupación posible para las vías, según su funcionalidad:]
+    .bg-tema9.mn.px-5.mb-5
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema9/6.png', alt='')
+        .col-lg-8
+          .tarjeta.bg-white.p-4
+            SlyderA(tipo='b')
+              .row
+                .col-lg-6.mb-4.mb-md-0
+                  h4 Primarias
+                  p Brindan acceso a ciudades capitales de departamentos e integran las principales zonas de producción y consumo del país, están a cargo de la nación y deben estar pavimentadas.
+                .col-lg-6
+                  figure
+                    img(src='@/assets/curso/temas/tema9/7.png', alt='')
+              .row
+                .col-lg-6.mb-4.mb-md-0
+                  h4 Secundarias
+                  p Vías de acceso que unen cabeceras municipales entre sí o provienen de una cabecera municipal y conectan con una vía primaria. Están a cargo de los departamentos y deben estar pavimentadas o en afirmado.
+                .col-lg-6
+                  figure
+                    img(src='@/assets/curso/temas/tema9/8.png', alt='')
+              .row
+                .col-lg-6.mb-4.mb-md-0
+                  h4 Terciarias
+                  p Vías de acceso que unen cabeceras municipales con veredas o unen veredas entre sí, están a cargo de los municipios y deben estar en afirmado.
+                .col-lg-6
+                  figure
+                    img(src='@/assets/curso/temas/tema9/9.png', alt='')
+    p.mb-5(data-aos='fade-right') Para proyectos viales se establecen cuatro tipos terreno, con ciertas características. Entonces, se podrán ejecutar esos proyectos de acuerdo con las condiciones predominantes en el sector de evaluación y ejecución del proyecto vial, así:
+      br
+      br
+      | #[b Agrupación de las vías en Colombia, según terreno.]
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        .row.justify-content-center.mb-2
+          .col-lg-6.mb-lg-0.mb-3
+            .tarjeta.card-hover.p-4.h-100
+              img(src='@/assets/curso/temas/tema9/10.svg', alt='' style="width: 87px").mb-3
+              h4 Terreno Plano
+              p Presenta pendientes entre el 0% y 3% de inclinación o elevación.
+          .col-lg-6.mb-lg-0.mb-3
+            .tarjeta.card-hover.p-4.h-100
+              img(src='@/assets/curso/temas/tema9/11.svg', alt='' style="width: 87px").mb-3
+              h4 Terreno Ondulado
+              p Presenta pendientes entre 3% y 6% de inclinación o elevación.
+        .row.justify-content-center.mb-3.mb-lg-0
+          .col-lg-6.mb-lg-0.mb-3
+            .tarjeta.card-hover.p-4.h-100
+              img(src='@/assets/curso/temas/tema9/12.svg', alt='' style="width: 87px").mb-3
+              h4 Terreno Montañoso
+              p Presenta pendientes entre 6% y 8% de inclinación o elevación.
+          .col-lg-6.mb-lg-0.mb-3
+            .tarjeta.card-hover.p-4.h-100
+              img(src='@/assets/curso/temas/tema9/13.svg', alt='' style="width: 87px").mb-3
+              h4 Terreno Escarpado
+              p Presenta pendientes superiores al 8% de inclinación o elevación.
+      .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/14.png', alt='')
+    p.mb-5(data-aos='fade-right') La infraestructura vial es un conjunto de elementos que permiten la circulación de los usuarios de la vía; al diseño geométrico se integran algunos elementos o componentes que contribuyen a la movilidad, la seguridad vial, los niveles de funcionamiento y servicio continuo de la vía, algunos de estos elementos son:
+    .tarjeta.bg-slyder9.p-5
+        LineaTiempoC.color-acento-contenido(text-small)
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Acera,andenes y senderos peatonales
+                p Son espacios exclusivos para el tránsito de peatones. Si por algún motivo se requiere el tránsito vehicular por ellos, se deberá priorizar, siempre, a los peatones.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/15.png', alt='')
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Calzada
+                p Está destinada a la circulación del tránsito, puede tener uno o varios carriles dependiendo del ancho de vía.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/16.png', alt='')
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Berma
+                p Es un espacio de la vía, hacia la parte exterior de ella que sirve para el tránsito de peatones y semovientes y en algunas ocasiones para el estacionamiento de los vehículos.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/17.png', alt='')
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Zonas de estacionamiento
+                p Son espacios destinados para que los vehículos puedan estar estacionados por un periodo de tiempo prolongado a diferencia de la berma que es para una parada momentánea.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/18.png', alt='')
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Separadores centrales eisletas
+                p Son espacios paralelos al eje de la vía que tienen la función de separar la calzada cuando ésta tiene el mismo sentido del tránsito o para separar carriles que tienen dirección opuesta al tránsito.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/19.png', alt='')
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Glorieta
+                p Es un tipo de intersección donde los carriles desembocan a una calzada circular donde se le da prioridad al vehículo que ya está circulando dentro de ella.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/20.png', alt='')
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Puente
+                p Es una estructura que se levanta sobre la vía para comunicar dos puntos de un lado a otro, hay puentes vehiculares y puentes peatonales.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/21.png', alt='')
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Ciclorruta o Ciclovía
+                p Es una zona de la vía o del andén destinada exclusivamente para la circulación de usuarios en bicicleta.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/22.png', alt='')
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.mb-4.mb-md-0
+              .tarjeta.bg-white.p-4.h-100
+                h4 Elementos de seguridad y señalización
+                p Son elementos físicos que sirven para la regulación del tránsito, tienen el propósito de guiar y orientar a los usuarios de la vía, ofreciendo condiciones para una movilidad segura.
+            .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/23.png', alt='')
+
+
+
+
+
+
 
 </template>
 
@@ -90,4 +287,15 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-tema9
+  background-image: url(../assets/curso/temas/tema9/bg-1.svg)
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+.bg-slyder9
+  background-image: url(../assets/curso/temas/tema9/bg-slyder.png)
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+</style>
