@@ -5,17 +5,17 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Modelos pedagógicos y enfoques didácticos
+      h1 Fundamentos sobre competencias ciudadanas en tránsito y seguridad vial
     .bg-tema5.mn.p-5.pt-0
       .row.justify-content-center.mb-5.g-0
-        .col-lg-8
+        .col-lg-8(data-aos="fade-right")
           .p-5(style="background-color: #31313C").h-100.d-flex.align-items-center
             p.mb-0.text-white La vida de los seres humanos en sociedad requiere que todos y cada uno de los integrantes de una comunidad tengan una serie de habilidades cognitivas emocionales y comunicativas para vivir en armonía con los demás, a lo que se le denomina competencias ciudadanas; al aterrizar este concepto al ámbito que se está abordando sobre tránsito y seguridad vial se debe hacer referencia al conocimiento y las habilidades que tiene cada uno de los actores viales, llámese “conductor, pasajero o peatón”, al utilizar la vía para desplazarse de un sitio a otro de la forma más segura y responsable, a lo que se le llama norma de comportamiento, generando un ambiente armónico en la movilidad.
-        .col-lg-4.col-6: img(src='@/assets/curso/temas/tema5/1.jpg', alt='')
-      p Estas normas de comportamiento vial se encuentran establecidas en el Código Nacional de Tránsito, el cual en su Título III establece las reglas de comportamiento vial para los conductores, los peatones y los pasajeros, describiendo los comportamientos que deben tener cada uno de estos actores viales al movilizarse por la vía y aclarando las limitaciones y prohibiciones específicas, que al no ser acatadas en esta misma norma establece algunos de los comportamientos como infracciones de tránsito; vea esto con mayor profundidad: 
-      .titulo-icono.mb-5
+        .col-lg-4(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/1.jpg', alt='')
+      p.mb-5(data-aos="fade-right") Estas normas de comportamiento vial se encuentran establecidas en el Código Nacional de Tránsito, el cual en su Título III establece las reglas de comportamiento vial para los conductores, los peatones y los pasajeros, describiendo los comportamientos que deben tener cada uno de estos actores viales al movilizarse por la vía y aclarando las limitaciones y prohibiciones específicas, que al no ser acatadas en esta misma norma establece algunos de los comportamientos como infracciones de tránsito; vea esto con mayor profundidad: 
+      .titulo-icono.mb-5(data-aos="fade-right")
         h4.mb-0 Comportamiento vial
-      .tarjeta.card-slyde.p-5
+      .tarjeta.card-slyde.p-5(data-aos="zoom-in")
         SlyderA(tipo='b')
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0

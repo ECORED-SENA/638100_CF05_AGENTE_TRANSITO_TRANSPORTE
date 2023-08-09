@@ -7,16 +7,16 @@
         span 9
       h1 Aspectos generales sobre infraestructura vial
     .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta.p-4(style="background-color: #F1EBDD")
           p.mb-0 La infraestructura vial es el conjunto de elementos que generan la conexión terrestre de un lugar a otro, para permitir el desplazamiento y circulación de individuos, bienes y servicios dentro de condiciones tanto de comodidad como de seguridad, cumpliendo con parámetros técnicos de diseño y construcción.
             br
             br
             |La importancia de la infraestructura vial radica en que aparte de permitir el traslado de personas, cargas, maquinarias, mercancías, etc., permite la realización de actividades productivas generando desarrollo económico del país.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/tema9/1.png', alt='')
+      .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema9/1.png', alt='')
     h5(data-aos="fade-right") En virtud de lo anterior, la infraestructura vial es importante y se deberá propender por su:
     .row.justify-content-center.mb-4
-      .col-lg-8
+      .col-lg-12
         ul.lista-ul--color
           li.d-flex
             i.fas.fa-check(style="color: #F88F05")
@@ -33,6 +33,7 @@
           li.d-flex
             i.fas.fa-check(style="color: #F88F05")
             p.mb-0 Fortalecimiento y aplicación de parámetros de sostenibilidad (minimización del impacto ambiental, económico y social).
+      .col-lg-8(data-aos="zoom-in")
         h5 Importante
         .tarjeta.p-4(style="background-color:#FAE5B4").mb-4
           .row.justify-content-center.align-items-center
@@ -48,29 +49,29 @@
       br
       br
       | #[b Así las cosas, las entidades a cargo son:]
-    .d-flex.justify-content-center.mb-4
+    .d-flex.justify-content-center.mb-4(data-aos="zoom-in")
       .tarjeta.rounded-pill.p-3.color-acento-contenido
         h4.mx-3.mb-0(style="color: #F0B62A") Vinculación de capital privado y las concesiones viales
-    .d-flex.justify-content-center.mb-4
+    .d-flex.justify-content-center.mb-4(data-aos="zoom-in")
       .tarjeta.rounded-pill.p-3.color-secundario
         h5.mx-3.mb-0 Entidades a cargo
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta.p-4.h-100.d-flex.align-items-start.flex-column.h-100(style="background-color: #E8E8E8")
             h4.text-center Instituto nacional de vías
             p Encargada de ejecutar políticas, programas, proyectos, planes y estrategias a nivel de infraestructura referente al transporte férreo, marítimo, fluvial y terrestre que brinden solución aspectos relacionados con conectividad y movilidad
             img.mt-auto(src='@/assets/curso/temas/tema9/2.png', alt='')
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-left")
         .tarjeta.p-4.h-100.d-flex.align-items-start.flex-column.h-100(style="background-color: #E8E8E8")
           h4.text-center Agencia nacional de Infraestructura  ANI
           p Le corresponde la planeación, coordinación, contratación, administración y evaluación de los proyectos  de infraestructura como carreteras, puertos, líneas férreas dándoles viabilidad y entregándose  por medio de concesiones o  en asociaciones público-privadas que incluyen su diseño, mantenimiento, administración y explotación,
           img.mt-auto(src='@/assets/curso/temas/tema9/3.png', alt='')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema9/4.png', alt='')
-      .col-lg-4
+      .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema9/4.png', alt='')
+      .col-lg-4(data-aos="fade-left")
         .tarjeta.p-4(style="background-color: #F1EBDD")
           p.text-center.mb-0 Estas dos entidades tienen como cabeza principal el Ministerio de Transporte.
-    .tarjeta.p-5.mb-5(style="background-color: #31313C")
+    .tarjeta.p-5.mb-5(style="background-color: #31313C")(data-aos="zoom-in")
       .row.justify-content-center.mb-3
         .col-lg-10
           p.fw-bold.text-white Según el Código Nacional de Tránsito, las vías en Colombia se dividen en dos categorías: las que se ubican dentro del perímetro urbano y las que se encuentran en zonas rurales, así:
@@ -148,9 +149,9 @@
       br
       br
       | #[b La siguiente es la agrupación posible para las vías, según su funcionalidad:]
-    .bg-tema9.mn.px-5.mb-5
+    .bg-tema9.mn.px-5.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema9/6.png', alt='')
+        .col-lg-4.mb-lg-0.mb-3.d-none.d-lg-block: img(src='@/assets/curso/temas/tema9/6.png', alt='')
         .col-lg-8
           .tarjeta.bg-white.p-4
             SlyderA(tipo='b')
@@ -180,7 +181,7 @@
       br
       | #[b Agrupación de las vías en Colombia, según terreno.]
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.mb-lg-0.mb-3
+      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         .row.justify-content-center.mb-2
           .col-lg-6.mb-lg-0.mb-3
             .tarjeta.card-hover.p-4.h-100
@@ -203,9 +204,9 @@
               img(src='@/assets/curso/temas/tema9/13.svg', alt='' style="width: 87px").mb-3
               h4 Terreno Escarpado
               p Presenta pendientes superiores al 8% de inclinación o elevación.
-      .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/14.png', alt='')
+      .col-lg-4.col-8.d-none.d-lg-block(data-aos="fade-left"): img(src='@/assets/curso/temas/tema9/14.png', alt='')
     p.mb-5(data-aos='fade-right') La infraestructura vial es un conjunto de elementos que permiten la circulación de los usuarios de la vía; al diseño geométrico se integran algunos elementos o componentes que contribuyen a la movilidad, la seguridad vial, los niveles de funcionamiento y servicio continuo de la vía, algunos de estos elementos son:
-    .tarjeta.bg-slyder9.p-5
+    .tarjeta.bg-slyder9.p-5(data-aos="zoom-in")
         LineaTiempoC.color-acento-contenido(text-small)
           .row.justify-content-center.align-items-center(titulo="")
             .col-lg-7.mb-4.mb-md-0
@@ -293,9 +294,17 @@ export default {
   background-position: center
   background-size: cover
   background-repeat: no-repeat
+  @media (max-width: $bp-max-lg)
+    background-image: none
+    background-color: #e8e8e8
+    padding: 3rem 0
 .bg-slyder9
   background-image: url(../assets/curso/temas/tema9/bg-slyder.png)
   background-position: center
   background-size: cover
   background-repeat: no-repeat
+  @media (max-width: $bp-max-lg)
+    background-image: none
+    background-color: #e8e8e8
+    padding: 3rem 0
 </style>

@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 8
       h1 Educación vial y factor humano
-    .tarjeta.mb-5(style="background-color: #31313D ")
+    .tarjeta.mb-5(style="background-color: #31313D ")(data-aos="zoom-in")
       .row.justify-content-center.align-items-end.mb-5
         .col-lg-7.mb-lg-0.mb-3
           .p-5
@@ -16,17 +16,17 @@
               |Uno de los derechos fundamentales establecidos por la constitución colombiana es el derecho a la libre locomoción, el cual está descrito en el Artículo 24 de la Constitución Política de Colombia, encontrando que este derecho está regulado por la Ley 769 de 2002 que ya se ha mencionado en el desarrollo de este componente, donde se establecen las normas de comportamiento vial para moverse en el territorio nacional. 
         .col-lg-5.col-7: img(src='@/assets/curso/temas/tema8/1.svg', alt='')
     p.mb-5(data-aos='fade-right') Cada una de las personas que se involucran en la movilidad vial deben tomar conciencia de los valores a fortalecer para que las condiciones que obedece el tráfico no conlleven a la manifestación de antivalores que culminan en accidentes de tránsito o en riñas callejeras, como se puede observar con mayor detalle en el siguiente video:
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
-    .cajon-b.color-acento-contenido.p-3.mb-5
+    .cajon-b.color-acento-contenido.p-3.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
-        .col-lg-1.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema8/2.svg', alt='')
+        .col-lg-1.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema8/2.svg', alt='')
         .col-lg-10
           p Se puede decir, entonces, que el comportamiento humano juega el papel principal en la movilidad vial segura y que su estudio debe partir de la comprensión y relación que tiene la conducción y cómo asociarla a cada conductor, por ejemplo, realizar un esquema con un grupo de conductores, donde se enmarquen las siguientes clasificaciones de acuerdo con su estilo de conducción: 
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in")
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
@@ -39,7 +39,7 @@
             p Las personas experimentadas adquieren hábitos de autocuidado, mantienen la calma y respetan las normas de tránsito, normalmente su conducción es segura pero se ven afectados por los afanes del día a día, llegando a realizar una conducción agresiva.
           .tarjeta.p-3(x="78.7%" y="73.7%" numero="+" style="background-color: #F1EBDD")
             p Las personas con gran pericia entran en una zona de confort y alienan su actividad de conducir con hábitos excesivos de confianza, a tal punto que elevan la velocidad de desplazamiento y se convierten en personas riesgosas para los demás usuarios. 
-    .mn.p-5(style="background-color: #484850 ")
+    .mn.p-5(style="background-color: #484850 ")(data-aos="zoom-in")
       .tarjeta.card--2.pb-0
         .row.justify-content-center.mb-5.align-items-end
           .col-lg-8

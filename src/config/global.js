@@ -40,7 +40,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Normatividad en tránsito y transporte.',
+        titulo: 'Normatividad en tránsito y transporte',
         desarrolloContenidos: true,
       },
 
@@ -67,7 +67,7 @@ export default {
         nombreRuta: 'tema5',
         numero: '5',
         titulo:
-          'Modelos pedagógicosFundamentos sobre competencias ciudadanas en tránsito y seguridad vial',
+          'Fundamentos sobre competencias ciudadanas en tránsito y seguridad vial',
         desarrolloContenidos: true,
       },
       {
@@ -170,8 +170,7 @@ export default {
       referencia:
         'Decreto 1430 de 2022 [Ministerio de Transporte]. Por medio del cual se aprueba el Plan Nacional de Seguridad Vial 2022-2031. Julio 29 de 2022.',
       tipo: 'Decreto / Documento',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/documentos/anexo-tecnico-decreto-1430-2022.pdf',
+      descarga: '/downloads/anexo1.pdf',
     },
   ],
   glosario: [
@@ -470,7 +469,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: '',
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
           cargo: 'Animador y Producción audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',

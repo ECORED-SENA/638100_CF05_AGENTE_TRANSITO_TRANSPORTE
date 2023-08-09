@@ -118,3 +118,34 @@
   left: 10%
 .linea-tiempo-e__item__header
   width: 10%
+.banner-principal .tarjeta
+  @media (max-width: $bp-max-lg)
+    background-image: url(../assets/curso/portada/portada_rp.png) !important
+.color-hover
+  background-color: #f1ebdd
+  transition: background-color .4s ease-in-out
+  &:hover
+    background-color: #fae5b4
+.titulo-h4
+  display: flex
+  &::before
+    content: url('../assets/curso/titulo-h4.svg')
+    margin-right: 10px
+.pasos-a__item
+  p
+    text-align: left !important
+.linea-tiempo-c__header__item__line-container:after, .linea-tiempo-c__header__item__line-container:before
+  background: #3e5862
+.linea-tiempo-c__header__item__dot
+  border-color: #2b2b2d
+.linea-tiempo-d__item__number
+  background-color: #2b2b2d
+  span
+    color: white
+.linea-tiempo-d__item__content__title
+  background-color: #ccd3d6
+.imagenes-responsive
+  @media (max-width: $bp-max-md)
+    img
+      width: 400px
+      margin-bottom: 20px

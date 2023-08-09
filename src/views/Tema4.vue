@@ -7,16 +7,16 @@
         span 4
       h1 Modelos pedagógicos y enfoques didácticos
     .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p Para el desarrollo de este tema se abordará de manera inicial el concepto de #[b “modelo”], que según Flórez (1994) es #[b “aquella representación definidora de un fenómeno social, el cual se estudia con base a la interiorización y entendimiento del mismo”]; en este sentido, el concepto de modelo se puede referir como aquella acción teórica aproximada hacia la comprensión de la fisonomía de un fenómeno.
           br
           br
           |Ahora bien, el autor Blanco (2002) en su texto denominado #[b “Los modelos pedagógicos”] encuentra el concepto e importancia de modelo, como aquel plan constituyente, integral e integrador de un fenómeno, es decir, desde la teoría y la práctica como aquel fundamento contemplativo en referencia de las posibles explicaciones a través de las implicaciones, los alcances, los paradigmas, entre otros aspectos que permitan el entendimiento de la fenomenología del estudio.
-      .col-lg-4.col-8: img(src='@/assets/curso/temas/tema4/1.png', alt='')
-    .cajon.color-acento-contenido.p-4.mb-4
+      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/1.png', alt='')
+    .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in")
       p.mb-0 Acorde con lo anterior, se define modelo pedagógico como aquella fenomenología de la educación que basa su esfuerzo en la comprensión de los diferentes teóricos y padres de la invención educativa y de sus diferentes contrastes nacidos a través del tiempo. A continuación se explican de manera general algunos modelos pedagógicos, para que posteriormente elija el modelo a utilizar para el desarrollo de sus clases cuando sea el momento:
     .row.justify-content-center.mb-3
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--amarilla")
           .row(titulo="Modelo tradicional")
             .col-md-8.mb-4.mb-md-0
@@ -74,7 +74,7 @@
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema4/7.png', alt='')
-    .tarjeta.p-4(style="background-color: #FEF1AD")
+    .tarjeta.p-4(style="background-color: #FEF1AD")(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
         .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/8.svg', alt='')
         .col-lg-9 
