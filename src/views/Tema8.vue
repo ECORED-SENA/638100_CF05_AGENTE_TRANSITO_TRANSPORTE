@@ -39,7 +39,7 @@
             p Las personas experimentadas adquieren hábitos de autocuidado, mantienen la calma y respetan las normas de tránsito, normalmente su conducción es segura pero se ven afectados por los afanes del día a día, llegando a realizar una conducción agresiva.
           .tarjeta.p-3(x="78.7%" y="73.7%" numero="+" style="background-color: #F1EBDD")
             p Las personas con gran pericia entran en una zona de confort y alienan su actividad de conducir con hábitos excesivos de confianza, a tal punto que elevan la velocidad de desplazamiento y se convierten en personas riesgosas para los demás usuarios. 
-    .mn.p-5(style="background-color: #484850 ")(data-aos="zoom-in")
+    .mn.p-5.mb-5(style="background-color: #484850 ")(data-aos="zoom-in")
       .tarjeta.card--2.pb-0
         .row.justify-content-center.mb-5.align-items-end
           .col-lg-8
@@ -49,6 +49,36 @@
                 br
                 | El buen comportamiento ajustado a la norma es la finalidad precisa que busca la educación vial, además de esculpir en las personas los valores más coherentes para el bienestar común en las relaciones interpersonales a las que se enfrentan en la vía, es justamente por esto que se tiene la convicción que la mejor manera de encontrar el equilibrio y la armonía social en las vías es la educación, ya que ciudadanos formados son más importantes que normas para quienes no se educan. 
           .col-lg-4.col-6: img(src='@/assets/curso/temas/tema8/4.png', alt='')
+    p.mb-5(data-aos='fade-right').fw-bold En conclusión, la educación vial debe hacer referencia a:
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-3
+        .tarjeta.h-100.p-5(style="background-color: #f1ebdd")
+          h5.text-center Aprendizaje de normas
+          .row.justify-content-center.mb-3
+            .col-lg-8
+              img(src='@/assets/curso/temas/tema8/c1.png', alt='').m-auto
+          p Las normas que tienen que ver con el buen comportamiento de los individuos al transitar por vías públicas, enfocado a la seguridad vial y la prevención de accidentes.
+      .col-lg-6.mb-3
+        .tarjeta.h-100.p-5(style="background-color: #f1ebdd")
+          h5.text-center Fortalecimiento ciudadano
+          .row.justify-content-center.mb-3
+            .col-lg-8
+              img(src='@/assets/curso/temas/tema8/c2.png', alt='').m-auto
+          p La educación vial no es solo para conductores; no son solo ellos quienes deben respetar las normas de tránsito, medidas y recomendaciones, sino toda la ciudadanía en general que.
+      .col-lg-6.mb-3
+        .tarjeta.h-100.p-5(style="background-color: #f1ebdd")
+          h5.text-center Cultura de armonía entre parte
+          .row.justify-content-center.mb-3
+            .col-lg-8
+              img(src='@/assets/curso/temas/tema8/c3.png', alt='').m-auto
+          p Toda persona, en algún momento, llega a ser usuaria de la vía en el rol que desempeñe: peatón, pasajero y/o conductor, por eso es importante fomentar y generar espacios de formación ciudadana.
+      .col-lg-6.mb-3
+        .tarjeta.h-100.p-5(style="background-color: #f1ebdd")
+          h5.text-center Conocimiento de la infraestructura vial
+          .row.justify-content-center.mb-3
+            .col-lg-8
+              img(src='@/assets/curso/temas/tema8/c4.png', alt='').m-auto
+          p Todas las personas que configuran la comunidad de la movilidad, deberán conocer normas y señales de tránsito, afianzando comportamientos y hábitos que propendan en el respeto por la vida propia y la de los demás, la sana convivencia y la movilidad segura.
 
 </template>
 

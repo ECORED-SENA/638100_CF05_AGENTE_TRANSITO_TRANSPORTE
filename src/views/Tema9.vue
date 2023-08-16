@@ -15,8 +15,8 @@
             |La importancia de la infraestructura vial radica en que aparte de permitir el traslado de personas, cargas, maquinarias, mercancías, etc., permite la realización de actividades productivas generando desarrollo económico del país.
       .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema9/1.png', alt='')
     h5(data-aos="fade-right") En virtud de lo anterior, la infraestructura vial es importante y se deberá propender por su:
-    .row.justify-content-center.mb-4
-      .col-lg-12
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         ul.lista-ul--color
           li.d-flex
             i.fas.fa-check(style="color: #F88F05")
@@ -33,6 +33,7 @@
           li.d-flex
             i.fas.fa-check(style="color: #F88F05")
             p.mb-0 Fortalecimiento y aplicación de parámetros de sostenibilidad (minimización del impacto ambiental, económico y social).
+      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema9/c1.png', alt='')
       .col-lg-8(data-aos="zoom-in")
         h5 Importante
         .tarjeta.p-4(style="background-color:#FAE5B4").mb-4

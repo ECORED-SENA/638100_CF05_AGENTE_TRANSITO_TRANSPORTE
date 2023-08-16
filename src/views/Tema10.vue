@@ -30,28 +30,13 @@
               p.text-small(numero="3" titulo="Promover") La participación, apoyo, coordinación, control y seguimiento de resultados, disponibilidad de la información de todas las entidades que estén involucradas con la seguridad vial.
               p.text-small(numero="4" titulo="Establecer")  Estrategias para cumplir con las metas propuestas, tanto en el orden nacional como en el orden territorial.
     p.mb-5(data-aos='fade-right').fw-bold En Colombia, la estrategia territorial del Plan Nacional de Seguridad Vial, impacta ocho regiones del país, así:
-    h5(data-aos="fade-right") Subdivisión de regiones
-    p.mb-5(data-aos='fade-right') El objetivo de establecer estas regiones es identificar de manera más puntual la problemática que aqueja cada región y así atender de manera más eficaz y oportuna los problemas de cada una de ellas.
-    ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema10/3.svg', alt='')
-      .tarjeta.p-3(x="35%" y="3%" tooltip="" numero="+" style="background-color: #F1EBDD; border: 1px solid #707070")
-        h5.mb-0 Región #[em Sea Flower]
-      .tarjeta.p-3(x="47%" y="10%" tooltip="" numero="+" style="background-color: #F1EBDD; border: 1px solid #707070")
-        h5.mb-0  Región Caribe
-      .tarjeta.p-3(x="53%" y="40%" tooltip="" numero="+" style="background-color: #F1EBDD; border: 1px solid #707070")
-        h5.mb-0 Región de los Santanderes
-      .tarjeta.p-3(x="45%" y="45%" tooltip="" numero="+" style="background-color: #F1EBDD; border: 1px solid #707070")
-        h5.mb-0 Región Eje Cafetero y Antioquia
-      .tarjeta.p-3(x="60%" y="47%" tooltip="" numero="+" style="background-color: #F1EBDD; border: 1px solid #707070")
-        h5.mb-0 Región Llanos – Orinoquía
-      .tarjeta.p-3(x="54%" y="56%" tooltip="" numero="+" style="background-color: #F1EBDD; border: 1px solid #707070")
-        h5.mb-0 Región Central
-      .tarjeta.p-3(x="43%" y="69%" tooltip="" numero="+" style="background-color: #F1EBDD; border: 1px solid #707070")
-        h5.mb-0  Región Pacífico
-      .tarjeta.p-3(x="55%" y="80%" tooltip="" numero="+" style="background-color: #F1EBDD; border: 1px solid #707070")
-        h5.mb-0 Región Amazonía
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema10/c1.png', alt='')
+      .col-lg-6(data-aos="fade-left")
+        .tarjeta.p-5(style="background-color: #f1ebdd ")
+          h5(data-aos="fade-right") Subdivisión de regiones
+          p.mb-0(data-aos='fade-right') El objetivo de establecer estas regiones es identificar de manera más puntual la problemática que aqueja cada región y así atender de manera más eficaz y oportuna los problemas de cada una de ellas.
+    
     p.mb-5(data-aos='fade-right') En función de los objetivos del plan y para garantizar más y mejores alcances, la estrategia de orden nacional trabajará sobre ocho áreas de acción como lo detalla el siguiente esquema:
     .d-flex.justify-content-center(data-aos="zoom-in")
       .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-1
@@ -63,7 +48,7 @@
             img(src='@/assets/curso/temas/tema10/4.svg', alt='Texto que describa la imagen')
         .col-lg-10.mb-4.mb-lg-0
           h4 Velocidades seguras
-          p Debido a que el exceso de velocidad es un problema predominante en las vías, ya que al aumentar la velocidad el conductor puede perder fácilmente el control del vehículo. Además, disminuye el tiempo de reacción tanto del conductor como de los otros usuarios de la vía, que no podrán ponerse a salvo con rapidez, por lo cual esta área está enfocada a establecer parámetros para la definición de velocidades adecuadas, la divulgación de la información y el cumplimento de las mismas.
+          p Debido a que el excPeso de velocidad es un problema predominante en las vías, ya que al aumentar la velocidad el conductor puede perder fácilmente el control del vehículo. Además, disminuye el tiempo de reacción tanto del conductor como de los otros usuarios de la vía, que no podrán ponerse a salvo con rapidez, por lo cual esta área está enfocada a establecer parámetros para la definición de velocidades adecuadas, la divulgación de la información y el cumplimento de las mismas.
       .row(titulo="2" subtitulo="")
         .col-2
           figure
