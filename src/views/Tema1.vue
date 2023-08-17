@@ -16,8 +16,8 @@
     p.mb-5(data-aos='fade-right') Es así que para dar inicio a este tema tan importante sobre la normatividad en tránsito y transporte se recomienda observar el siguiente video, que puede ayudarle a entender con mayor facilidad. 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video .Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fBb7pif3fBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Normatividad TTO TTE.
     .mn.p-5.mb-5(style="background-color: #484850 ")(data-aos="zoom-in")
       .tarjeta.cards.p-5
         .row.justify-content-center.align-items-center
