@@ -15,11 +15,7 @@
               br
               |Uno de los derechos fundamentales establecidos por la constitución colombiana es el derecho a la libre locomoción, el cual está descrito en el Artículo 24 de la Constitución Política de Colombia, encontrando que este derecho está regulado por la Ley 769 de 2002 que ya se ha mencionado en el desarrollo de este componente, donde se establecen las normas de comportamiento vial para moverse en el territorio nacional. 
         .col-lg-5.col-7: img(src='@/assets/curso/temas/tema8/1.svg', alt='')
-    p.mb-5(data-aos='fade-right') Cada una de las personas que se involucran en la movilidad vial deben tomar conciencia de los valores a fortalecer para que las condiciones que obedece el tráfico no conlleven a la manifestación de antivalores que culminan en accidentes de tránsito o en riñas callejeras, como se puede observar con mayor detalle en el siguiente video:
-    figure.mb-5(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    p.mb-5(data-aos='fade-right') Cada una de las personas que se involucran en la movilidad vial deben tomar conciencia de los valores a fortalecer para que las condiciones que obedece el tráfico no conlleven a la manifestación de antivalores que culminan en accidentes de tránsito o en riñas callejeras. 
     .cajon-b.color-acento-contenido.p-3.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
         .col-lg-1.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema8/2.svg', alt='')
