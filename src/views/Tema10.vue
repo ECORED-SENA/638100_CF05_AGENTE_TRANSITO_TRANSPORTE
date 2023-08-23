@@ -22,7 +22,7 @@
     p.fw-bold(data-aos="fade-right").mb-4 Entre los objetivos e intencionalidades del PNSV 2022-2031 están:
     .bg-tema10.px-5.mn.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center.mb-5
-          .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema10/2.png', alt='')
+          .col-lg-4.mb-lg-0.mb-3.d-lg-block.d-none: img(src='@/assets/curso/temas/tema10/2.png', alt='')
           .col-lg-8
             LineaTiempoD.color-acento-botones
               p.text-small(numero="1" titulo="Proteger")  Juntos la vida e integridad de los actores viales ante los riesgos derivados de la siniestralidad vial
