@@ -60,7 +60,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Modelos pedagógicos',
+        titulo: 'Modelos pedagógicos y enfoques didácticos',
         desarrolloContenidos: true,
       },
       {
@@ -73,7 +73,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Características de la enseñanza aprendizaje',
+        titulo: 'Características de la enseñanza y del aprendizaje',
         desarrolloContenidos: true,
       },
       {
@@ -170,7 +170,8 @@ export default {
       referencia:
         'Decreto 1430 de 2022 [Ministerio de Transporte]. Por medio del cual se aprueba el Plan Nacional de Seguridad Vial 2022-2031. Julio 29 de 2022.',
       tipo: 'Decreto / Documento',
-      descarga: '/downloads/anexo1.pdf',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=191348',
     },
   ],
   glosario: [

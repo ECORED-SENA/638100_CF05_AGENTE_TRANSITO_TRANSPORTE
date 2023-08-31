@@ -70,6 +70,9 @@
             br
             br
             |De otra parte, el docente en temas de seguridad vial debe conocer los tipos de evaluación educativa para aplicar cuando lo considere necesario en sus clases, donde hay diversidad de propuestas de clasificación de la evaluación en el desarrollo del proceso de enseñanza y aprendizaje. Existen tres clases de evaluación educativa denominadas: #[b evaluación diagnóstica, evaluación formativa y evaluación sumativa], explicadas a continuación:
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Figura 2.
+      span Tipos de evaluación
     img.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/tema7/9.svg', alt='Mapa conceptual que expone las particularidades de los tipos de evaluación educativa en temas de seguridad vial, así:<br><br><br>1 Evaluación diagnóstica, que se aplica antes del proceso educativo<br>2 Evaluación formativa, que se aplica durante el proceso de enseñanza<br>3 Evaluación sumativa, llamada también evaluación final y que se aplica al término del proceso.')
     p.mb-5(data-aos='fade-right') Por todo lo expuesto anteriormente, es el docente quien decide el momento de la clase de seguridad vial para aplicar cualquier tipo de evaluación según el caso y el tema, recomendándole terminar la asignatura con la evaluación sumativa en busca de dar soluciones a los problemas que surgen en materia de seguridad vial, ya que en los dicentes pueden encontrarse ideas realmente innovadoras a la problemática diaria.
 

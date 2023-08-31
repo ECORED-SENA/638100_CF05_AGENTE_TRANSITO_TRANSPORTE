@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Creado con Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.78.30747.0 -->
+  <!-- version: 3.74.30180.0 -->
   <title>Actividad did&#225;ctica</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -28,18 +28,18 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#000000',
-      features: 'AccessibleVideo,BgAudioBlip,ConnectionMessages,DropIn1,DropIn2,DropIn3,FullScreenToggle,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoSync',
+      features: 'AccessibleVideo,BackgroundAudio,ConnectionMessages,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoTranscripts',
       themeName: 'classic',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
       productChannel: 'stable',
       publishSource: 'storyline',
-      aid: 'aid|5304b41d-7af7-4125-b8d1-83eb222823e2',
+      aid: 'aid|e14397ea-0237-43b4-a3b7-7398baa37849',
       cid: '205e763f-36e9-49f5-a288-0752dae28706',
-      playerVersion: '3.78.30747.0',
-      publishTimestamp: '2023-08-14T22:40:20.4085721Z',
+      playerVersion: '3.74.30180.0',
+      publishTimestamp: '2023-08-31T22:26:14.4706078Z',
       maxIosVideoElements: 10,
-      connectionSettings: { mode: 'disabled' },
+      connectionSettings: { },
 
       
       parseParams: function(qs) {
@@ -239,20 +239,22 @@
       retryDelay: 500
     };
 
-    var connectionSettings = window.globals.connectionSettings || {};
+    // @TODO this is POC code and can be cleaned up a bit more if we move forward
+    // with the feature
+
+
 
     // The `window.globals.features` variable must be set in `webpack.dev.config` when testing locally - it is not enough
     // to have it in the data - but it must be set there as well.
     var useConnectionMessages = window.AbortController != null &&
       window.location.protocol != 'file:' &&
-      window.globals.features.indexOf('ConnectionMessages') != -1 &&
-      connectionSettings.mode === 'normal';
+      window.globals.features.indexOf('ConnectionMessages') != -1;
 
     window.DS.connection.useConnectionMessages = useConnectionMessages
 
     var assetCount = 0;
     var checkLoadedId;
-
+    var connectionSettings = window.globals.connectionSettings;
 
     if (useConnectionMessages && connectionSettings != null) {
       var contentEl = document.querySelector('.warn-connection-content');
@@ -342,7 +344,7 @@
     function assetFailed(url) {
       if (!useConnectionMessages) { return; }
       if (!DS.connection.assets[url]) {
-        if (/\.js$/.test(url) && url.indexOf('transcripts') === -1) {
+        if (/\.js$/.test(url)) {
           setTimeout(function() {
             if (DS.connection.lastSlideLoaded != null) {
               DS.connection.lastSlideLoaded();

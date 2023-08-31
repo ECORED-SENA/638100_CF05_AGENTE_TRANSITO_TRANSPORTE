@@ -177,7 +177,7 @@
                 .col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema9/9.png', alt='')
-    p.mb-5(data-aos='fade-right') Para proyectos viales se establecen cuatro tipos terreno, con ciertas características. Entonces, se podrán ejecutar esos proyectos de acuerdo con las condiciones predominantes en el sector de evaluación y ejecución del proyecto vial, así:
+    p.mb-5(data-aos='fade-right') Para proyectos viales se establecen cuatro tipos de terreno, con ciertas características. Entonces, se podrán ejecutar esos proyectos de acuerdo con las condiciones predominantes en el sector de evaluación y ejecución del proyecto vial, así:
       br
       br
       | #[b Agrupación de las vías en Colombia, según terreno.]
@@ -188,23 +188,23 @@
             .tarjeta.card-hover.p-4.h-100
               img(src='@/assets/curso/temas/tema9/10.svg', alt='' style="width: 87px").mb-3
               h4 Terreno Plano
-              p Presenta pendientes entre el 0% y 3% de inclinación o elevación.
+              p Presenta pendientes entre el 0 % y 3 % de inclinación o elevación.
           .col-lg-6.mb-lg-0.mb-3
             .tarjeta.card-hover.p-4.h-100
               img(src='@/assets/curso/temas/tema9/11.svg', alt='' style="width: 87px").mb-3
               h4 Terreno Ondulado
-              p Presenta pendientes entre 3% y 6% de inclinación o elevación.
+              p Presenta pendientes entre 3 % y 6 % de inclinación o elevación.
         .row.justify-content-center.mb-3.mb-lg-0
           .col-lg-6.mb-lg-0.mb-3
             .tarjeta.card-hover.p-4.h-100
               img(src='@/assets/curso/temas/tema9/12.svg', alt='' style="width: 87px").mb-3
               h4 Terreno Montañoso
-              p Presenta pendientes entre 6% y 8% de inclinación o elevación.
+              p Presenta pendientes entre 6 % y 8 % de inclinación o elevación.
           .col-lg-6.mb-lg-0.mb-3
             .tarjeta.card-hover.p-4.h-100
               img(src='@/assets/curso/temas/tema9/13.svg', alt='' style="width: 87px").mb-3
               h4 Terreno Escarpado
-              p Presenta pendientes superiores al 8% de inclinación o elevación.
+              p Presenta pendientes superiores al 8 % de inclinación o elevación.
       .col-lg-4.col-8.d-none.d-lg-block(data-aos="fade-left"): img(src='@/assets/curso/temas/tema9/14.png', alt='')
     p.mb-5(data-aos='fade-right') La infraestructura vial es un conjunto de elementos que permiten la circulación de los usuarios de la vía; al diseño geométrico se integran algunos elementos o componentes que contribuyen a la movilidad, la seguridad vial, los niveles de funcionamiento y servicio continuo de la vía, algunos de estos elementos son:
     .tarjeta.bg-slyder9.p-5(data-aos="zoom-in")
@@ -212,7 +212,7 @@
           .row.justify-content-center.align-items-center(titulo="")
             .col-lg-7.mb-4.mb-md-0
               .tarjeta.bg-white.p-4.h-100
-                h4 Acera,andenes y senderos peatonales
+                h4 Acera, andenes y senderos peatonales
                 p Son espacios exclusivos para el tránsito de peatones. Si por algún motivo se requiere el tránsito vehicular por ellos, se deberá priorizar, siempre, a los peatones.
             .col-lg-4.col-8: img(src='@/assets/curso/temas/tema9/15.png', alt='')
           .row.justify-content-center.align-items-center(titulo="")

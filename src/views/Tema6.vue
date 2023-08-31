@@ -210,7 +210,7 @@
               p.mb-0 Octava fase: retroalimentación. 
         .col-lg-5: img(src='@/assets/curso/temas/tema6/10.svg', alt='')
     .titulo-h4(data-aos="fade-right")
-      h4 b. Modelos cognitivistas
+      h4 b. Modelos constructivistas
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p Creado por Jean William Fritz Piaget, Psicólogo suizo, conocido por sus aportes al estudio de la infancia, propuso el modelo constructivista a partir de sus descubrimientos en Biología, Lógica y Psicología, reuniéndose en una nueva epistemología; este modelo busca que el docente y el estudiante piensen en múltiples perspectivas o interpretaciones de realidad para dar respuestas innovadoras y poco tradicionales.

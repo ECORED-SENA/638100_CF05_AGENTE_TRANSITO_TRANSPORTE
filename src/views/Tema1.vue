@@ -24,6 +24,9 @@
           .col-lg-7
             p De otra parte, el sector transporte se define como el traslado de personas, animales o cosas de un punto a otro a través de un medio físico, el cual se encuentra regulado en cabeza del Ministerio de Transporte como máxima autoridad en el tema y cuyo objetivo primordial es la formulación y adopción de las políticas, los planes, los programas, los proyectos y la regulación económica en esta materia, estableciendo los parámetros y la regulación técnica en los modos de transporte terrestre marítimo, fluvial, férreo y aéreo, expidiendo varias normas que regulan el sector transporte. 
           .col-lg-4.col-7: img(src='@/assets/curso/temas/tema1/2.svg', alt='')
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Figura 1.
+      span Normatividad de tránsito y transporte
     img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/3.svg', alt='Diagrama que expone las generalidades de las normas establecidas para regular tanto el tránsito como el tra)nsporte en Colombia. <br> 1 el Tránsito, regulado por la ley 769 de 2002 y la ley 1503 de 2011.<br> 2 el Transporte, reglamentado por el decreto 1078 de 2015 en donde se establece la tipificación del transporte y las características normadas de cada tipo de transporte.')
 
       

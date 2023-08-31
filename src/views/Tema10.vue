@@ -48,7 +48,7 @@
             img(src='@/assets/curso/temas/tema10/4.svg', alt='Texto que describa la imagen')
         .col-lg-10.mb-4.mb-lg-0
           h4 Velocidades seguras
-          p Debido a que el excPeso de velocidad es un problema predominante en las vías, ya que al aumentar la velocidad el conductor puede perder fácilmente el control del vehículo. Además, disminuye el tiempo de reacción tanto del conductor como de los otros usuarios de la vía, que no podrán ponerse a salvo con rapidez, por lo cual esta área está enfocada a establecer parámetros para la definición de velocidades adecuadas, la divulgación de la información y el cumplimento de las mismas.
+          p Debido a que el exceso de velocidad es un problema predominante en las vías, ya que al aumentar la velocidad el conductor puede perder fácilmente el control del vehículo. Además, disminuye el tiempo de reacción tanto del conductor como de los otros usuarios de la vía, que no podrán ponerse a salvo con rapidez, por lo cual esta área está enfocada a establecer parámetros para la definición de velocidades adecuadas, la divulgación de la información y el cumplimiento de las mismas.
       .row(titulo="2" subtitulo="")
         .col-2
           figure

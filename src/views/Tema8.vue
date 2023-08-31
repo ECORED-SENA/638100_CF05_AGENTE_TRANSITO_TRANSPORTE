@@ -60,7 +60,7 @@
           .row.justify-content-center.mb-3
             .col-lg-8
               img(src='@/assets/curso/temas/tema8/c2.png', alt='').m-auto
-          p La educación vial no es solo para conductores; no son solo ellos quienes deben respetar las normas de tránsito, medidas y recomendaciones, sino toda la ciudadanía en general que.
+          p La educación vial no es solo para conductores; no son solo ellos quienes deben respetar las normas de tránsito, medidas y recomendaciones, sino toda la ciudadanía en general.
       .col-lg-6.mb-3
         .tarjeta.h-100.p-5(style="background-color: #f1ebdd")
           h5.text-center Cultura de armonía entre parte
