@@ -231,7 +231,7 @@ export default {
     },
     {
       termino: 'OMS',
-      significado: 'Organización Mundial de la Salud.',
+      significado: ' Organización Mundial de la Salud.',
     },
     {
       termino: 'Pedagogía',

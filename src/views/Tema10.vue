@@ -69,7 +69,7 @@
             img(src='@/assets/curso/temas/tema10/7.svg', alt='Texto que describa la imagen')
         .col-lg-10.mb-4.mb-lg-0
           h4 Cumplimiento de normas
-          p En esta área se quiere fomentar la vigilancia y control del cumplimento de la normatividad en materia de tránsito y transporte ya que es una problemática que se genera dado el desconocimiento de las normas por parte de algunos usuarios viales y por el no catamiento de ellas. En Colombia se tiene la cultura que solo es deber de algunos actores viales cumplir las normas, pero no es así y cada individuo juega un papel importante como usuario de la vía, otro aspecto importante es el control sobre los diferentes organismos de tránsito en el cumplimento de lineamientos dados por el Ministerio de Transporte y el apoyo a los mismos.
+          p En esta área se quiere fomentar la vigilancia y control del cumplimiento de la normatividad en materia de tránsito y transporte ya que es una problemática que se genera dado el desconocimiento de las normas por parte de algunos usuarios viales y por el no catamiento de ellas. En Colombia se tiene la cultura que solo es deber de algunos actores viales cumplir las normas, pero no es así y cada individuo juega un papel importante como usuario de la vía, otro aspecto importante es el control sobre los diferentes organismos de tránsito en el cumplimento de lineamientos dados por el Ministerio de Transporte y el apoyo a los mismos.
       .row(titulo="5" subtitulo="")
         .col-2
           figure
